@@ -26,4 +26,6 @@ header h2 {
     text-indent: 30px;
 }
 
-
+main {
+    clear: both;
+}
