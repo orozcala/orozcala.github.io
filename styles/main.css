@@ -12,7 +12,8 @@ body {
     border: 1px solid green;   
     border-radius: 25px; 
     box-shadow: 5px 5px 0 0;
-    background: url("/images/Dad and Alan working.JPG") right repeat-y;
+    background: url("./images/Dad and Alan working.JPG") right repeat-y;
+    
     background-attachment: fixed;
 
 }
