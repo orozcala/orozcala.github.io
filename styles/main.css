@@ -62,6 +62,8 @@ header img {
 
 main {
     clear: left;
+    background-color: #2e399e;
+    opacity: 20;
 }
 
 main h3 {
