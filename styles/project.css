@@ -63,8 +63,8 @@ article {
     clear: left;
     width: 70%;
     float: left;
-    column-count: 2px;
-    column-rule: 2 dotted maroon;
+    column-count: 2;
+    column-rule: 2px dotted maroon;
     column-gap: 2em;
     margin-left: 2em;
 
@@ -95,3 +95,6 @@ article {
         clear: both;
         border-top: 2px solid maroon;
     }
+    
+
+    
