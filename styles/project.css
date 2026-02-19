@@ -21,6 +21,7 @@ body {
 
 
 a:hover, a:focus{
+    padding: 15px 1.5em ;
     font-style:italic;
     color:blue;
     border: 3px blue;
@@ -35,6 +36,7 @@ a:hover, a:focus{
     }
 
 header h1 {
+    padding: 15px 1.5em ;
 
     font-size: 175%;
     color:orange;
