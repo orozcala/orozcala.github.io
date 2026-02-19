@@ -70,7 +70,7 @@ main h3 {
     padding: 1em; 
 }
 
-main h4 {
+
 main nav {
     margin: 1.5em 2em 1.5em;
     border: 5px dashed blue;
@@ -78,7 +78,6 @@ main nav {
     box-shadow: 3px 3px 4px 3px rgb(124, 44, 44);
     padding: 1em;
 }
-
 main div.contact {
     margin: 1.5em 2em 0em 2em ;
     border: 5px dotted #2e399e;
@@ -86,5 +85,4 @@ main div.contact {
     box-shadow: 3px 4px 4px 4px rgb(128, 36, 36) ;
     padding: 1em; 
 
-}
 }
