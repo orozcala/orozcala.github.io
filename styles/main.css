@@ -64,7 +64,7 @@ main {
 
 main h3 {
     margin: 1.5em 2em 1.5em 2em;
-    border: 5px dashed blue;
+    border: 5px double blue;
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px rgb(114, 44, 44) ;
     padding: 1em; 
