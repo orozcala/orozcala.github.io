@@ -96,6 +96,18 @@ article {
         background-color: #9e90df;
         padding: initial;
     }
+
+    p.fixed {
+        width: auto;
+        position: fixed;
+        bottom: 150px;
+        right: 20px;
+        background-color: greenyellow 
+        border: 2px solid darkgray;
+        padding: 10px 20px;
+        font-weight: bold;
+
+    }
     footer {
         clear: both;
         border-top: 2px solid maroon;
