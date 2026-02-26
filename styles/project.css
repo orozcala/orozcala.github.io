@@ -25,7 +25,7 @@ a:hover, a:focus{
     font-style:italic;
     color:blue;
     border: 3px blue;
-    border-style:dotted;
+    border-style:dotted blue;
 
 }
 
@@ -102,7 +102,7 @@ article {
         position: fixed;
         bottom: 150px;
         right: 20px;
-        background-color: greenyellow 
+        background-color: greenyellow;
         border: 2px solid darkgray;
         padding: 10px 20px;
         font-weight: bold;
@@ -112,6 +112,7 @@ article {
         clear: both;
         border-top: 2px solid maroon;
           border: 1px solid black;
+          text-align: center;
     }
 
 
