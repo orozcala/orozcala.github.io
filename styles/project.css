@@ -100,9 +100,9 @@ article {
     p.fixed {
         width: auto;
         position: fixed;
-        bottom: 150px;
+        bottom: 135px;
         right: 20px;
-        background-color: greenyellow;
+        background-color: rgb(137, 187, 62);
         border: 2px solid darkgray;
         padding: 10px 20px;
         font-weight: bold;
