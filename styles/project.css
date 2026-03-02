@@ -14,7 +14,7 @@ body {
        background: url("/images/Dad and Alan working.JPG") right repeat-y;
     background-attachment: fixed;
     background-color: white;
-   
+   background: white url("/images/Dad and Alan working.JPG") right repeat-y fixed;
 
 }
 
@@ -24,8 +24,8 @@ a:hover, a:focus{
 
     font-style:italic;
     color:blue;
-    border: 3px blue;
-    border-style:dotted blue;
+    border: 3px dotted blue;
+    border-style: blue;
 
 }
 
@@ -94,7 +94,7 @@ article {
         width: 20%;
         float: right;
         background-color: #9e90df;
-        padding: initial;
+        padding: 0;
     }
 
     p.fixed {
