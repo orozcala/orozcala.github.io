@@ -94,6 +94,8 @@ article {
     width: 20%;
     float: right;
     background-color: #ffebc6; 
+        padding: 20px;       
+    text-align: center;
     }
 
     p.fixed {
@@ -119,5 +121,6 @@ article {
 
 
     
+
 
 
