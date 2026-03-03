@@ -91,9 +91,10 @@ article {
         color: bisque;
     }
     aside {
-       width: 20%, float: right
+       width: 20%
+
         background-color: #9e90df;
-        padding: 2;
+        padding: 0;
     }
 
     p.fixed {
@@ -119,3 +120,4 @@ article {
 
 
     
+
