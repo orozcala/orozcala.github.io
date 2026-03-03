@@ -91,10 +91,7 @@ article {
         color: bisque;
     }
     aside {
-       width: auto;
-        position: fixed;
-        bottom: 135px;
-        right: 20px;
+       width: 20%, float: right
         background-color: #9e90df;
         padding: 2;
     }
