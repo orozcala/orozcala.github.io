@@ -27,6 +27,7 @@ main nav {
 hr {
     height: 4px; 
     background-color: blue;
+    clear: both;
     
 }
 
