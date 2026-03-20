@@ -1,6 +1,9 @@
 html {
     background-image: url("images/SHSU logo.png");
+    
 }
+
+
 
 
 body {
@@ -40,7 +43,7 @@ article {
     width: 75%;
     float: left;
     column-count: 3;
-    column-rule: 6px dotted rgb(25, 98, 180);
+    column-rule: 6px dashed rgb(25, 98, 180);
     column-gap: 2em;
     margin-left: 2em;
 }
