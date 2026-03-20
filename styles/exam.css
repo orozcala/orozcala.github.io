@@ -98,7 +98,7 @@ article {
 
   footer {
         clear: both;
-          border: 2px solid blue;
+          border-top: 2px solid blue;
           text-align: center;
           width: 100;
     }
