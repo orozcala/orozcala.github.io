@@ -2,6 +2,9 @@ html {
       background-image: linear-gradient(to left, white 0%, #8de4f4 100%);
     
 }
+#nav_menu ul li a.active {
+    color: yellow;
+}
 #nav_menu ul { list-style-type: none; }
 #nav_menu ul li { float: left; }
 #nav_menu ul li a {
