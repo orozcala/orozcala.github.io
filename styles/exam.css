@@ -31,10 +31,10 @@ color: blue;
 
  aside {
     width: 75%;
-    float: right;
+    float: left;
     background-color: #a4d3e6; 
         padding: 13px;       
-    text-align: left;
+    text-align: right;
     }
 
 
