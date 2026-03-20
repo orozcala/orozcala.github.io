@@ -14,4 +14,11 @@ h2{
 color: blue;
 
 }
+  footer {
+        clear: both;
+        border-top: 2px solid maroon;
+          border: 1px solid black;
+          text-align: center;
+    }
+
 
