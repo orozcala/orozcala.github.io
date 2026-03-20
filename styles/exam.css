@@ -43,6 +43,8 @@ color: blue;
     border-style: 3px solid black;
     }
 
+article p::first-letter
+
 
 article {
   
