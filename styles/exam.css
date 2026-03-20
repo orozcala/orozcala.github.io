@@ -3,6 +3,18 @@ html {
     
 }
 
+#nav_menu ul { list-style-type: none; }
+#nav_menu ul li { float: left; }
+#nav_menu ul li a {
+text-align: center;
+display: block;
+width: 175px;
+padding: 1em 0;
+text-decoration: none;
+background-color: blue;
+color: white;
+font-weight: bold; 
+border-right: 2px solid white; }
 
 main nav {
     margin: 1.5em 2em 1.5em;
@@ -29,7 +41,7 @@ body {
     border-radius: 25px; 
     box-shadow: 5px 5px 0 0; 
     background-attachment: fixed;
-    background-image: url("images/SHSU logo.png") right repeat-y;
+    background-im  age: url("/images/SHSU logo.png") right repeat-y;
     background-color: aliceblue;
 }
 
