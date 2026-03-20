@@ -42,7 +42,8 @@ body {
     border-radius: 25px; 
     box-shadow: 5px 5px 0 0; 
     background-attachment: fixed;
-   background-image: url("../images/SHSU logo.png"); }
+   background-image: url("../images/SHSU logo.png")
+   background-position; }
 
 
 h1 {
@@ -64,10 +65,7 @@ aside ol.Bullet { list-style-type: square; }
     background-color: #a4d3e6; 
         padding: 13px;     
     text-align: left;
-    border-style: 3px solid black;
     position: sticky;
-    top: 20px;
-    right: 30px;
     }
 
 article p::first-letter {
