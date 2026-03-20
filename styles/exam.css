@@ -55,7 +55,8 @@ color: blue;
 h2{
 color: blue;
 }
-
+aside ol.Roman { list-style-type: upper-roman; }
+aside ol.Bullet { list-style-type: square; }
 
  aside {
     
