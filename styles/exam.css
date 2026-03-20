@@ -41,8 +41,8 @@ article {
     clear: left;
     width: 75%;
     float: left;
-    column-count: 2;
-    column-rule: 2px dotted maroon;
+    column-count: 3;
+    column-rule: 6px dotted rgb(25, 98, 180);
     column-gap: 2em;
     margin-left: 2em;
 }
