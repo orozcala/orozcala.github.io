@@ -71,14 +71,11 @@ aside ol.alpha { list-style-type: lower-alpha;}
 
 aside {
     width: 20%;
+    float: right;
     background-color: #a4d3e6; 
     padding: 13px;     
     text-align: left;
     border: 3px solid black;
-    display: inline-block; 
-    position: sticky;
-    top: 20px;           
-    vertical-align: top;
 }
 
 
