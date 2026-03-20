@@ -1,7 +1,7 @@
 body {
     font-family:Arial, Helvetica, sans-serif;
     font-size: 100%;
-    width: 90%;
+    width: 95%;
       margin:15px auto;
        padding: 15px 1.5em ;
    border: 1px solid green; 
@@ -25,8 +25,28 @@ color: blue;
 
 h2{
 color: blue;
-
 }
+
+ aside {
+    width: 20%;
+    float: right;
+    background-color: #ffebc6; 
+        padding: 13px;       
+    text-align: left;
+    }
+
+
+article {
+    clear: left;
+    width: 75%;
+    float: left;
+    column-count: 2;
+    column-rule: 2px dotted maroon;
+    column-gap: 2em;
+    margin-left: 2em;
+}
+
+
   footer {
         clear: both;
         border-top: 2px solid maroon;
