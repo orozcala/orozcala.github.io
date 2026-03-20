@@ -43,8 +43,13 @@ color: blue;
     border-style: 3px solid black;
     }
 
-article p::first-letter
+article p::first-letter {
+font-size: 3em;
+font-weight: bold;
+font-style: italic;
+color: black;
 
+}
 
 article {
   
@@ -59,9 +64,9 @@ article {
 
   footer {
         clear: both;
-        border-top: 2px solid maroon;
-          border: 1px solid black;
+          border: 2px solid blue;
           text-align: center;
+          width: 100;
     }
 
 
