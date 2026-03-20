@@ -3,7 +3,11 @@ html {
     
 }
 
-
+hr {
+    height: 4px; 
+    background-color: blue;
+    
+}
 
 
 body {
