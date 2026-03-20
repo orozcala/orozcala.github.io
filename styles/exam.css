@@ -30,7 +30,7 @@ color: blue;
 }
 
  aside {
-    width: 75%;
+    width: 20%;
     float: right;
     background-color: #a4d3e6; 
         padding: 13px;       
@@ -39,13 +39,13 @@ color: blue;
 
 
 article {
-    clear: left;
+  
     width: 75%;
     float: left;
     column-count: 3;
     column-rule: 6px dashed rgb(25, 98, 180);
     column-gap: 2em;
-    margin-left: 2em;
+    margin-left: 0;
 }
 
 
