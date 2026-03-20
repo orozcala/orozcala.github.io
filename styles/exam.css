@@ -27,7 +27,9 @@ hr {
     height: 3px; 
     background-color: blue;
     clear: both;
-    margin-top: 20px;
+    border: none;
+    margin-top: 50px;
+    margin-bottom: 20px;
     
 }
 
