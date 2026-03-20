@@ -10,7 +10,7 @@ display: block;
 width: 175px;
 padding: 1em 0;
 text-decoration: none;
-background-color: blue;
+background-color: rgb(0, 0, 255);
 color: white;
 font-weight: bold; 
 border-right: 2px solid white; }
