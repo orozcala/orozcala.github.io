@@ -81,9 +81,9 @@ color: black;
 
 
 article img {
-    float: right;
+    float: left;
     margin: 0 15px 10px 0;
-    width: 250px;
+    width: 200px;
     height: 75px;
 
 }
