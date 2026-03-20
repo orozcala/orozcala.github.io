@@ -66,6 +66,8 @@ aside ol.Bullet { list-style-type: square; }
         padding: 13px;       
     text-align: left;
     border-style: 3px solid black;
+    position: sticky;
+    top: 20px;
     }
 
 article p::first-letter {
