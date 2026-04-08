@@ -140,16 +140,9 @@ footer {
 @media (max-width: 700px) {
     .container {
         flex-direction: column; 
-    } 
-
-
-.menu-button-container {
-display: flex;
-}
-
-
-
-.menu {
+    }
+     
+        .menu {
 position: absolute;
 top: 0;
 margin-top: 50px;
@@ -158,8 +151,18 @@ flex-direction: column;
 width: 100%;
 justify-content: center;
 align-items: center;
-
+        }
 }
+    
+
+
+.menu-button-container {
+display: flex;
+}
+
+
+
+
 
 #menu-toggle ~ .menu li {
 height: 0;
@@ -208,5 +211,5 @@ footer {
     text-align: center;
     font-size: .6em;
 }
-}
+
 
