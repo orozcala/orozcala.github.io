@@ -11,12 +11,6 @@ html, body {
 }
 
 
-@media (min-width: 768px) {
-    .container {
-        flex-direction: row; 
-    }
-}
-
 * {
     font-family: verdana, Arial, Helvetica, sans-serif;
     box-sizing: border-box;
@@ -280,6 +274,14 @@ article h2 {
 
 article p {
     font-size: .8em;
+}
+
+
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row; 
+    } 
 }
 
 footer {
