@@ -143,7 +143,7 @@ footer {
     .container {
         flex-direction: column; 
     }
-}
+
     .menu {
 position: absolute;
 top: 0;
@@ -154,7 +154,7 @@ width: 100%;
 justify-content: center;
 align-items: center;
 }
-
+}
 #menu-toggle ~ .menu li {
 height: 0;
 margin: 0;
