@@ -137,14 +137,17 @@ footer {
     font-size: .8em;
 
 }
-.menu-button-container {
-display: flex;
-}
 
 @media (max-width: 700px) {
     .container {
         flex-direction: row; 
     } 
+
+
+.menu-button-container {
+display: flex;
+}
+
 
 
 .menu {
