@@ -5,6 +5,18 @@ html, body {
 }
 
 
+.container {
+    display: flex;
+    flex-direction: column; 
+}
+
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row; 
+    }
+}
+
 * {
     font-family: verdana, Arial, Helvetica, sans-serif;
     box-sizing: border-box;
