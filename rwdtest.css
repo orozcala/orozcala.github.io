@@ -1,0 +1,115 @@
+html, body {
+   margin: 0;
+   height: 100%;
+   font-size: 100%;
+}
+
+* {
+    font-family: verdana, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; 
+}
+
+/* TOP NAV - Horizontal by default */
+.top-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to left, #f46b45, #eea849);
+    color: #FFF;
+    height: 3em;
+    padding: 1em;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row; /* Side-by-side for PC */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu > li {
+    margin: 0 1rem;
+}
+
+/* Hide the hamburger button on Desktop */
+.menu-button-container {
+    display: none; 
+}
+
+#menu-toggle {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover, .menu a.current {
+    text-decoration: underline;
+}
+
+/* CONTENT STYLES */
+article {
+    padding: 1em;
+}
+
+article img {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 760px;
+}
+
+footer {
+    border-top: 2px solid #f46b45;
+    text-align: center;
+    padding: 1em;
+}
+
+/* --- MOBILE STYLES (Max-width 700px) --- */
+@media (max-width: 700px) {
+    .menu-button-container {
+        display: flex; /* Show hamburger on mobile */
+    }
+
+    .menu {
+        position: absolute;
+        top: 0;
+        margin-top: 3em; /* Height of the nav */
+        left: 0;
+        flex-direction: column; /* Stacked for mobile */
+        width: 100%;
+        background-color: #222;
+        display: none; /* Hide until toggled */
+    }
+
+    /* Show menu when checkbox is checked */
+    #menu-toggle:checked ~ .menu {
+        display: flex;
+    }
+
+    .menu > li {
+        border-bottom: 1px solid #444;
+        padding: 1em;
+        text-align: center;
+        width: 100%;
+    }
+    
+    /* Animation for hamburger lines */
+    .menu-button, .menu-button::before, .menu-button::after {
+        display: block;
+        background-color: #fff;
+        position: absolute;
+        height: 4px;
+        width: 30px;
+        border-radius: 2px;
+    }
+}
