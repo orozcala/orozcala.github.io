@@ -14,7 +14,7 @@
 .container {
     display: flex;
 }
-
+/************************************/
 .top-nav {
     display: flex;
     flex-direction: row;
@@ -97,10 +97,11 @@ margin-top: 0px;
 transform: rotate(-405deg);
 
 }
+/*End of the menu*/
 
 a {
     text-decoration: none;
-    color: white;
+    color: rgb(169, 54, 54);
 
 }
 
@@ -143,7 +144,7 @@ footer {
         flex-direction: column; 
     }
      
-        .menu {
+    .menu {
 position: absolute;
 top: 0;
 margin-top: 50px;
@@ -152,18 +153,7 @@ flex-direction: column;
 width: 100%;
 justify-content: center;
 align-items: center;
-        }
 }
-    
-
-
-.menu-button-container {
-display: flex;
-}
-
-
-
-
 
 #menu-toggle ~ .menu li {
 height: 0;
@@ -171,8 +161,8 @@ margin: 0;
 padding: 0;
 border: 0;
 transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
-}
 
+}
 #menu-toggle:checked ~ .menu li {
 border: 1px solid #333;
 height: 2.5em;
@@ -192,8 +182,7 @@ background-color: #222;
 
 .menu > li:not(:last-child) {
 border-bottom: 1px solid #444;
-
-}
+} }
 
 article h2 {
     font-size: 1.1em;
@@ -202,10 +191,6 @@ article h2 {
 article p {
     font-size: .8em;
 }
-
-
-
-
 
 footer {
     border-top: 1px solid #f46b45;
