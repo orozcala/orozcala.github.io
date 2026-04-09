@@ -47,10 +47,10 @@ table.second thead tr:first-child {
 
 table.third {
     border-collapse: collapse;
-    border-top: 3px solid green;
+    border-top: 3px solid rgb(239, 128, 10);
 }
 table.third th {
-    background-color: rgb(14, 137, 14);
+    background-color: rgb(71, 205, 71);
     
 }
 
