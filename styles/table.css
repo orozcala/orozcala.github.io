@@ -47,7 +47,7 @@ table.second thead tr:first-child {
 
 table.third {
     border-collapse: collapse;
-    border-top: 3px solid rgb(239, 128, 10);
+    border-top: 3px solid rgb(255, 179, 97);
         
     
 
@@ -60,23 +60,23 @@ table.third th, table.second td {
 table.third th {
     background-color: rgb(119, 233, 119);
     padding: 0.7em;
-    border-bottom: 3px solid rgb(213, 111, 16);
-    border-top: 3px solid rgb(213, 111, 16);
+    border-bottom: 3px solid rgb(255, 179, 97);
+    border-top: 3px solid rgb(255, 179, 97);
 }
 
 
 table.third thead tr:first-child {
-    border-bottom: 3px solid rgb(213, 111, 16);
+    border-bottom: 3px solid rgb(255, 179, 97);
    
 }
 
 table.third thead tr:last-child {
-    border-bottom: 3px solid rgb(213, 111, 16);
+    border-bottom: 3px solid rgb(255, 179, 97);
    
 }
 
 table.third tbody tr:last-child {
-    border-bottom: 3px solid rgb(213, 111, 16);
+    border-bottom: 3px solid rgb(255, 179, 97);
      
 }
 
