@@ -53,6 +53,11 @@ table.third {
 
 }
 
+table.third {
+  border-spacing: 5px; /* Adjust value as needed */
+  border-collapse: separate; /* Required for border-spacing to work */
+}
+
 table.third th, table.second td {
     padding: 0.7em;
 }
