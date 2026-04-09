@@ -48,10 +48,14 @@ table.second thead tr:first-child {
 table.third {
     border-collapse: collapse;
     border-top: 3px solid rgb(239, 128, 10);
+        border-bottom: 3px solid rgb(239, 128, 10);
+    border-top: 3px solid rgb(239, 128, 10);
+
 }
 table.third th {
     background-color: rgb(71, 205, 71);
-    
+    border-bottom: 3px solid rgb(239, 128, 10);
+
 }
 
 table.third th, table.second td {
