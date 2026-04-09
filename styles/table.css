@@ -1,0 +1,61 @@
+html, body {
+margin: 1;
+height: 100%;
+font-size: 100%;
+}
+
+* {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/*************************************************/
+
+table.first {
+    border-collapse: separate;
+    border: 2px solid black;
+}
+
+table.first th, table.first td {
+    border: 2px solid blue;
+}
+
+table.first tr:nth-child(odd) {
+    background-color: lightblue;
+}
+
+/*************************************************/
+
+table.second {
+    border-collapse: collapse;
+    border: 2px solid purple;
+    caption-side: bottom;
+}
+table.second th {
+    background-color: salmon;
+}
+
+table.second td {
+    border-bottom: 2px solid purple;
+}
+
+/*************************************************
+
+table.third {
+
+
+
+}
+
+*/
+
+@media only screen and (max-wifth: 425px) {
+    th, td {
+        display: block;
+    }
+    thread, td.number {
+        display: none;
+        padding: 0;
+    }
+}
+
+
