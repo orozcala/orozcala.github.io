@@ -36,7 +36,7 @@ table.second th {
 table.second th, table.second td {
     padding: 0.7em;
     vertical-align: middle;
-    border: 22px solid purple;
+    border: 2px solid purple;
 }
 
 table.second thead tr:first-child {
