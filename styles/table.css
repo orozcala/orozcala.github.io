@@ -80,11 +80,11 @@ table.third tbody tr:last-child {
      
 }
 
-@media only screen and (max-wifth: 425px) {
+@media only screen and (max-width: 425px) {
     th, td {
         display: block;
     }
-    thread, td.number {
+    thead, td.number {
         display: none;
         padding: 0;
     }
