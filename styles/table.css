@@ -64,7 +64,7 @@ table.third th {
 }
 
 
-table.third thread tr:first-child {
+table.third thead tr:first-child {
     border-bottom: 3px solid rgb(213, 111, 16);
 }
 
