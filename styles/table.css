@@ -76,6 +76,7 @@ table.third thead tr:last-child {
 }
 
 table.third tbody tr:last-child {
+      border-spacing: 10px 5px;
     border-bottom: 3px solid rgb(255, 179, 97);
      
 }
