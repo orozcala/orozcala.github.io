@@ -57,6 +57,14 @@ table.third {
   border-spacing: 5px; /* Adjust value as needed */
   border-collapse: separate; /* Required for border-spacing to work */
 }
+table.third {
+  border-collapse: separate;
+}
+
+table.third td,
+table.third th {
+  margin: 5px; /* Adjust value as needed */
+}
 
 table.third th, table.second td {
     padding: 0.7em;
@@ -95,5 +103,4 @@ table.third tbody tr:last-child {
         padding: 0;
     }
 }
-
 
