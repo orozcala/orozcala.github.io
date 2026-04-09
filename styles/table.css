@@ -66,17 +66,17 @@ table.third th {
 
 table.third thead tr:first-child {
     border-bottom: 3px solid rgb(213, 111, 16);
-     padding: 0.7em;
+   
 }
 
 table.third thead tr:last-child {
     border-bottom: 3px solid rgb(213, 111, 16);
-     padding: 0.7em;
+   
 }
 
 table.third tbody tr:last-child {
     border-bottom: 3px solid rgb(213, 111, 16);
-     padding: 0.7em;
+     
 }
 
 @media only screen and (max-wifth: 425px) {
