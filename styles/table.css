@@ -43,15 +43,23 @@ table.second thead tr:first-child {
     border-bottom: 2px solid purple;
 }
 
-/*************************************************
+/*************************************************/
 
 table.third {
-
-
-
+    border-collapse: collapse;
+    border: 2px solid green;
+}
+table.third th {
+    background-color: rgb(14, 137, 14);
 }
 
-*/
+table.third th, table.second td {
+    padding: 0.7em;
+}
+table.third thread tr:first-child {
+    border-bottom: 2px solid rgb(213, 111, 16);
+}
+
 
 @media only screen and (max-wifth: 425px) {
     th, td {
