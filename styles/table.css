@@ -48,13 +48,6 @@ table.second thead tr:first-child {
 table.third {
     border-collapse: collapse;
     border-top: 3px solid rgb(255, 179, 97);
-    border-spacing: 10px 5px;
-    
-
-}
-
-table.third {
-  border-collapse: separate;
 }
 
 table.third th, table.second td {
