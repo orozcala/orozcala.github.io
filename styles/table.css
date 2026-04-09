@@ -49,22 +49,32 @@ table.third {
     border-collapse: collapse;
     border-top: 3px solid rgb(239, 128, 10);
         border-bottom: 3px solid rgb(239, 128, 10);
-    border-top: 3px solid rgb(239, 128, 10);
-
-}
-table.third th {
-    background-color: rgb(71, 205, 71);
-    border-bottom: 3px solid rgb(239, 128, 10);
+    
 
 }
 
 table.third th, table.second td {
     padding: 0.7em;
 }
-table.third thread tr:first-child {
-    border-bottom: 2px solid rgb(213, 111, 16);
+
+table.third th {
+    background-color: rgb(71, 205, 71);
+   
+
 }
 
+
+table.third thread tr:first-child {
+    border-bottom: 3px solid rgb(213, 111, 16);
+}
+
+table.third thead tr:last-child {
+    border-bottom: 3px solid rgb(213, 111, 16);
+}
+
+table.third tbody tr:last-child {
+    border-bottom: 3px solid rgb(213, 111, 16);
+}
 
 @media only screen and (max-wifth: 425px) {
     th, td {
