@@ -54,6 +54,10 @@ table.third th, table.second td {
     padding: 0.7em;
 }
 
+table.third tr {
+    border: 8px solid white
+}
+
 table.third th {
     background-color: rgb(119, 233, 119);
     padding: 0.7em;
