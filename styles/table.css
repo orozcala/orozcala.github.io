@@ -60,7 +60,8 @@ table.third th, table.second td {
 table.third th {
     background-color: rgb(119, 233, 119);
     padding: 0.7em;
-
+    border-bottom: 3px solid rgb(213, 111, 16);
+    border-top: 3px solid rgb(213, 111, 16);
 }
 
 
