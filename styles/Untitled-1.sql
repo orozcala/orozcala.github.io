@@ -104,4 +104,78 @@ CREATE TABLE MontraProductsInvoices (
 
 */
 
+/*
+-- create 2 views called 'Display daily sales summary' and 'display all appoint for this month'
 
+GO
+
+DROP VIEW IF EXISTS DisplayDailySales;
+GO
+CREATE VIEW DisplayDailySales
+AS 
+SELECT 
+    CAST(InvoiceDate AS DATE) AS SaleDate,
+    SUM(Amount) AS DailyTotal,
+    COUNT(InvoiceID) AS InvoiceCount
+FROM MontraInvoices
+GROUP BY CAST(InvoiceDate AS DATE);
+GO
+
+
+
+
+DROP VIEW IF EXISTS DisplayAppointmentsThisMonth;
+GO
+CREATE VIEW DisplayAppointmentsThisMonth
+AS
+SELECT 
+    InvoiceID,
+    CustomerID,
+    EmployeeID,
+    InvoiceDate,
+    Amount
+FROM MontraInvoices
+WHERE MONTH(InvoiceDate) = MONTH(GETDATE())
+    AND YEAR(InvoiceDate) = YEAR(GETDATE());
+
+*/
+
+
+
+
+
+
+
+/*
+-- Create 2 stored procedures 'TherapistPayOut' and 'SwapItemPrice'
+
+GO
+CREATE PROCEDURE TherapistPayOut
+    @EmployeeID INT,
+    @StartDate DATE,
+    @EndDate DATE,
+    @Amount DECIMAL(10,2) OUTPUT
+AS
+BEGIN
+    SELECT @Amount = SUM(Amount) * 0.5
+    -- Assuming therapists get 50% of the sales
+    FROM MontraInvoices
+    WHERE EmployeeID = @EmployeeID
+        AND InvoiceDate BETWEEN @StartDate AND @EndDate;
+END
+
+GO
+
+GO
+CREATE PROCEDURE SwapItemPrice
+    @ProductID INT,
+    @ProductName VARCHAR(100),
+    @NewPrice DECIMAL(10,2)
+AS
+BEGIN
+    UPDATE MontraProducts
+    SET ProductName = @ProductName,
+        Price = @NewPrice
+    WHERE ProductID = @ProductID;
+END
+*/
