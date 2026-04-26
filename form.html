@@ -67,16 +67,22 @@ The Tickets input type should be “number”. Min should be 1 and Max should be
 </fieldset>
 <fieldset>
     <legend>How Did You Hear About Us?</legend>
-    <label for = "HowDid">ow Did You Hear About Us?</label>
-    <select name = "HowDid" id = "HowDid">
-        <option value = "Search Engine">Search Engine</option>
-        <option value = "Social Media">Social Media</option>
-        <option value = "Email">Email</option>
-        <option value = "Friend or colleague">Friend or colleague</option><br>
-</select><br>
+
+    <input type = "checkbox" id = "search_engine" name = "howdid" value = "search">
+    <label for = "search_engine">Search Engine</label><br>
+    
+     <input type = "checkbox" id = "social_media" name = "howdid" value = "social">
+    <label for = "search engine">Social Media</label><br>
+
+     <input type = "checkbox" id = "Email" name = "howdid" value = "Email">
+    <label for = "search engine">Email</label><br>
+
+     <input type = "checkbox" id = "friend" name = "howdid" value = "friend">
+    <label for = "friend">Friend or colleague</label><br>
+    
 </fieldset>
 <fieldset>
-    <legend>Comments</legend>
+    <legend>Comments: </legend>
     <label for = "Comments">Comments</label>
     <textarea name = "Comments" id = "Comments" rows = "5" cols = "40" placeholder="If you have any comments, please enter them here."></textarea><br>
 </fieldset>
@@ -86,3 +92,14 @@ The Tickets input type should be “number”. Min should be 1 and Max should be
 
 </body>
 </html>
+
+
+  <!--
+    <label for = "HowDid">How Did You Hear About Us?</label>
+    <select name = "HowDid" id = "HowDid">
+        <option value = "Search Engine">Search Engine</option>
+        <option value = "Social Media">Social Media</option>
+        <option value = "Email">Email</option>
+        <option value = "Friend or colleague">Friend or colleague</option><br>
+        </select><br>
+        -->
